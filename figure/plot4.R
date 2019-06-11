@@ -1,4 +1,4 @@
-##reading in the data
+##reading in data
 temporary<- tempfile()
 file<-download.file("https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip",temporary)
 data <- read.table(unzip(temporary), header = TRUE, sep = ";")
